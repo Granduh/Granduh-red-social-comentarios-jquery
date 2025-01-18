@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NET GLOBAL RED</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>NET GLOBAL RED</h1>
+            <input type="text" id="filterKeyword" placeholder="Filtrar publicaciones..." />
+        </header>
+        
+        <section id="postsContainer">
+            <!-- Los posts se cargarán aquí dinámicamente -->
+        </section>
+
+        <section id="newPost">
+            <h2>Crea tu nueva publicación</h2>
+            <input type="text" id="postTitle" placeholder="Título" />
+            <textarea id="postDescription" placeholder="Descripción"></textarea>
+            <button id="addPostButton">Agregar Post</button>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/post.js"></script>
+    <script src="js/comments.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
