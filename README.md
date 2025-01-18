@@ -15,7 +15,7 @@ Además, el proyecto sirve como base para explorar las posibilidades de jQuery e
 
 ---
 
-## 💽 Estructura del Proyecto
+## Estructura del Proyecto
 
 La estructura de los archivos está organizada de manera simple para facilitar la comprensión:
 
@@ -43,7 +43,7 @@ red-social-comentarios-jquery/
 
 ---
 
-## 🚀 Cómo Usar
+## ❓ Cómo Usar
 
 Sigue los pasos a continuación para ejecutar la aplicación en tu máquina local:
 
